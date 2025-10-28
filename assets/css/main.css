@@ -2622,6 +2622,8 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			height: 400px;   
+   	 		overflow: hidden;
 		}
 
 			.image.fit:first-child {
@@ -2630,6 +2632,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				object-fit: cover;
 			}
 
 		.image.main {
@@ -3922,6 +3925,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > article .image {
+					
 					max-width: 25rem;
 					margin-left: auto;
 					margin-right: auto;
